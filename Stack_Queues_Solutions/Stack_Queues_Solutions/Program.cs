@@ -6,7 +6,11 @@ namespace Stack_Queues_Solutions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome To Stack and Queues");
+            Stack s = new Stack();//Create Stack Object
+            s.Add(70);
+            s.Add(30);
+            s.Add(56);
+            s.Display();//Call Display Method
         }
     }
 }
