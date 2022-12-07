@@ -26,11 +26,21 @@ namespace Stack_Queues_Solutions
             //s.Display();
 
             //Queue1
-            Queue q = new Queue();//Create object Queue
-            q.Enqueue(70);//Add Datat Into The Queue
+            //Queue q = new Queue();//Create object Queue
+            //q.Enqueue(70);//Add Datat Into The Queue
+            //q.Enqueue(30);
+            //q.Enqueue(56);
+            //q.Display();//Call Display Method
+
+            //Queues2
+
+            Queue q = new Queue();//Create Objects 
+            q.Enqueue(70);
             q.Enqueue(30);
             q.Enqueue(56);
-            q.Display();//Call Display Method
+            q.Display();
+            q.Dequeue();
+            q.Display();
         }
     }
 }
